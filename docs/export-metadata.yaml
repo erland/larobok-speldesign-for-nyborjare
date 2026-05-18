@@ -1,0 +1,51 @@
+title: Speldesign för nybörjare
+subtitle: Teori, genrer och praktiska designbeslut för blivande spelskapare
+author: Erland Lindmark
+language: sv
+difficulty: basic
+audience: Arkitekter och utvecklare som experimenterat lite med spelprogrammering
+book_type: textbook
+edition: '1'
+version: '0.12'
+date: '2026-05-17'
+rights: All rights reserved
+publisher: ''
+cover_image: "assets/cover/cover.png"
+identifier: urn:uuid:2e73d134-d66b-4096-a75b-5fb6ca7687f6
+creator_role: aut
+subject: Speldesign
+description: En svensk teoretisk lärobok om speldesign för nybörjare, med genreöversikter
+  och praktiska designövningar.
+project_slug: speldesign-for-nyborjare
+zip_naming:
+  initial: speldesign-for-nyborjare-projekt.zip
+  chapter_update: speldesign-for-nyborjare-projekt-kapitel-NN.zip
+chapters:
+- chapters/00-inledning.md
+- chapters/01-vad-ar-speldesign.md
+- chapters/02-spelarens-mal-och-motivation.md
+- chapters/03-karnloopen.md
+- chapters/04-regler-resurser-och-begransningar.md
+- chapters/05-feedback-och-spelkansla.md
+- chapters/06-balans-och-svarighetsgrad.md
+- chapters/07-pusselspel-och-problemlosning.md
+- chapters/08-actionspel-och-reaktionsdesign.md
+- chapters/09-strategi-och-simulationsspel.md
+- chapters/10-rollspel-och-progression.md
+- chapters/11-multiplayer-och-social-design.md
+- chapters/12-fran-kopia-till-egen-design.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    airy_layout: true
+    render_markdown_styles: true
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    render_markdown_styles: true
+  docx:
+    enabled: true
+    render_markdown_styles: true
+  markdown:
+    enabled: true

@@ -70,6 +70,10 @@ Alla tre nivåer behövs inte alltid i varje spel, men när de saknas bör det v
 
 Det viktiga är att spelaren har någon form av riktning på rätt tidsskala.
 
+![Tre nivåer av mål i speldesign](../assets/images/IMG-02-01.png)
+
+*Figur 2.1: Mål kan ligga på flera nivåer, från vad spelaren gör just nu till varför hela äventyret spelar roll.*
+
 ## Motivation: varför målet känns värt att följa
 
 **Motivation** är anledningen till att spelaren vill agera.

@@ -76,6 +76,10 @@ Nu börjar designen skapa val. Ska spelaren använda facklan nu eller spara den?
 
 Till sist får vi spelupplevelsen. Kanske känner spelaren nyfikenhet, osäkerhet, kontroll, stress eller belöning. Det är här designen möter människan.
 
+![Fyra lager i en spelidé](../assets/images/IMG-01-01.png)
+
+*Figur 1.1: Fyra lager i en spelidé, från grundidé till spelarens upplevelse.*
+
 ## Mekanik: vad spelaren kan göra
 
 En **mekanik** är en möjlig handling eller interaktion som spelaren kan använda eller påverkas av.

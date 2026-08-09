@@ -95,6 +95,10 @@ En enkel modell är:
 
 Den här modellen är inte bara användbar för actionspel. Den fungerar även för pussel, strategi, rollspel och undervisande spel.
 
+![Svårighetskurva med variation och återhämtning](../assets/images/IMG-06-01.png)
+
+*Figur 6.1: En svårighetskurva behöver rytm, inte bara ständig ökning.*
+
 ### Tolerans och marginaler formar upplevelsen
 
 **Tolerans** handlar om hur mycket fel spelet tillåter innan spelaren misslyckas. Tolerans kan finnas i tid, position, resurser, information eller konsekvenser.

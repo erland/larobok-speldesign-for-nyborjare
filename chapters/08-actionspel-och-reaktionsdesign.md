@@ -46,6 +46,10 @@ Det är lätt att tro att actionspel främst handlar om reflexer. Reflexer spela
 
 Spelaren reagerar bättre när situationen är läsbar. En fiende som höjer vapnet innan den slår, en projektil som har tydlig färg och bana, eller en plattform som skakar innan den faller ger spelaren möjlighet att agera medvetet. Utan sådana signaler blir reaktionen mer gissning än skicklighet.
 
+![Reaktionsdesign i ett actionmoment](../assets/images/IMG-08-01.png)
+
+*Figur 8.1: Reaktionsdesign fungerar när spelaren hinner uppfatta signalen, tolka hotet, agera och förstå resultatet.*
+
 ## Tre centrala begrepp
 
 ### Timing

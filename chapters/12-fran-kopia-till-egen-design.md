@@ -145,6 +145,10 @@ Fråga:
 
 En variant blir ofta starkare när den inte bara lägger till fler objekt utan skapar nya relationer mellan objekt.
 
+![Från spelkopia till egen designvariant](../assets/images/IMG-12-01.png)
+
+*Figur 12.1: Egen design växer fram när en förebild analyseras, förändras medvetet och testas som prototyp.*
+
 ## Designhypotesen
 
 En användbar övergång från kopia till egen design är att formulera en **designhypotes**.

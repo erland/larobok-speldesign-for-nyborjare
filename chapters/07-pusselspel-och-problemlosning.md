@@ -115,6 +115,10 @@ Feedback behöver inte säga “rätt” eller “fel” uttryckligen. Den kan v
 
 Sådan feedback hjälper spelaren skilja mellan handlingar som inte spelar någon roll och handlingar som nästan fungerar.
 
+![Pusselrum med mål ledtrådar och lösningsrymd](../assets/images/IMG-07-01.png)
+
+*Figur 7.1: Ett pussel blir begripligt när mål, regler, ledtrådar och feedback pekar mot samma insikt.*
+
 ## Skogsruinen som pusselspel
 
 Vi använder vårt återkommande exempel, Skogsruinen.

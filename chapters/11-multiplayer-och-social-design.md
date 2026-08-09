@@ -117,6 +117,10 @@ Exempel i ett tävlingsspel:
 
 Sociala loopar är viktiga eftersom multiplayer ofta lever av upprepade beteenden. Spelet bör därför belöna de beteenden som stärker upplevelsen, inte bara de beteenden som råkar vara mest effektiva.
 
+![Social loop i multiplayer](../assets/images/IMG-11-01.png)
+
+*Figur 11.1: En social loop där spelare påverkar varandras nästa handlingar.*
+
 ## Roller och beroenden
 
 Roller hjälper spelare att förstå vad de bidrar med. En roll kan vara formell, som healer, tank eller damage dealer. Den kan också vara informell, som ledare, utforskare, taktiker, byggare eller skojare.

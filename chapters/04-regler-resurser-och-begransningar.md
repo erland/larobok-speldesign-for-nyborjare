@@ -163,6 +163,10 @@ Spelaren i Skogsruinen hittar en tung stenport. Den kan öppnas genom att använ
 
 Detta är mer intressant än en port som bara kräver att spelaren trycker på en knapp. Inte för att knappar är dåliga, utan för att sigillet kopplar porten till resurser, osäkerhet och framtida planering.
 
+![Kostnad risk och konsekvens i ett spelarval](../assets/images/IMG-04-01.png)
+
+*Figur 4.1: Ett spelarval blir mer meningsfullt när det har kostnad, risk och konsekvens.*
+
 ### När begränsningar blir irritation
 
 Begränsningar kan också misslyckas. En begränsning är inte automatiskt bra bara för att den gör spelet svårare.

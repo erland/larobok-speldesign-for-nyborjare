@@ -86,6 +86,10 @@ Exempel:
 
 Social progression är kraftfull eftersom den ger spelaren identitet. Frågan blir inte bara “vad kan jag göra?” utan “vem har jag blivit i den här världen?”.
 
+![Fyra typer av rollspelsprogression](../assets/images/IMG-10-01.png)
+
+*Figur 10.1: Rollspelsprogression kan utveckla spelarens siffror, handlingar, berättelse och relationer.*
+
 ## Karaktärsbygge som design
 
 Karaktärsbygge innebär att spelaren formar sin roll genom val. Det kan ske i början av spelet, löpande under resan eller både och. Spelaren väljer kanske klass, bakgrund, färdigheter, utrustning, moralisk hållning eller relationer.

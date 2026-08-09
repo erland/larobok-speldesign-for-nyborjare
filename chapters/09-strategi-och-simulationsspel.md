@@ -47,6 +47,10 @@ Läsbarhet i strategispel handlar därför om att visa samband. Spelaren behöve
 
 Bra systemisk design låter spelaren tänka: “Jag förlorade inte för att spelet lurade mig. Jag förlorade för att jag missbedömde systemet.”
 
+![Resurssystem i strategi och simulation](../assets/images/IMG-09-01.png)
+
+*Figur 9.1: Strategiska resurser blir intressanta när de påverkar varandra och förändrar framtida val.*
+
 ## Strategiska beslut
 
 Ett strategiskt beslut är ett val där konsekvensen är större än den omedelbara handlingen. Att öppna en dörr kan vara ett taktiskt beslut. Att välja vilken del av kartan som ska utforskas först kan vara strategiskt, eftersom det påverkar resurser, risker och framtida möjligheter.

@@ -71,6 +71,10 @@ Exempel från Skogsruinen:
 
 Det viktiga är inte bara att belöningen finns, utan att spelaren uppfattar sambandet mellan sin handling och resultatet. Om spelaren inte förstår varför något hände blir loopen svagare.
 
+![En enkel kärnloop](../assets/images/IMG-03-01.png)
+
+*Figur 3.1: En enkel kärnloop där spelarens handling leder till respons och ny motivation.*
+
 ### Kärnloop och spelrytm
 
 **Spelrytm** handlar om hur ofta och med vilken intensitet loopen upprepas. En snabb loop kan kännas omedelbar och intensiv. En långsam loop kan kännas eftertänksam och strategisk.

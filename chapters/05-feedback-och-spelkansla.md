@@ -61,6 +61,10 @@ Samma händelse kan använda alla tre. Om spelaren går in i giftig dimma kan sp
 
 En vanlig nybörjarmiss är att bara lägga till informativ feedback: siffror, mätare och text. Det kan vara nödvändigt, men ofta räcker det inte. Spelaren behöver också känna att något händer och förstå vad nästa rimliga beslut är.
 
+![Flera typer av feedback efter en spelarhandling](../assets/images/IMG-05-01.png)
+
+*Figur 5.1: Feedback hjälper spelaren att förstå vad som hände, hur det känns och vad nästa beslut kan vara.*
+
 ### Feedback måste komma i rätt tid
 
 Feedbackens timing är nästan lika viktig som feedbackens innehåll. Om spelaren trycker på en knapp och spelet svarar direkt känns kontrollen nära. Om svaret kommer för sent kan samma mekanik kännas trög, även om regeln är korrekt.

@@ -74,9 +74,13 @@ def main() -> int:
         print("ERROR: --formats måste vara epub och/eller pdf.", file=sys.stderr)
         return 2
 
+    # Chapter Markdown files use image paths such as ../assets/images/....
+    # Include both the repository root and chapters/ in Pandoc's resource path
+    # so those references resolve correctly regardless of the process cwd.
+    resource_path = f"{root}:{root / 'chapters'}"
     common = [
         "--metadata-file", str(metadata_path),
-        "--resource-path", str(root),
+        "--resource-path", resource_path,
         "--toc", "--toc-depth=2",
     ]
 

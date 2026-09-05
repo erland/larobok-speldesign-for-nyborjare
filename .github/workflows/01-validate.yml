@@ -1,0 +1,34 @@
+name: Validate
+
+on:
+  pull_request:
+    paths:
+      - "chapters/**"
+      - "docs/**"
+      - "assets/**"
+      - "publishing/**"
+      - "scripts/**"
+      - "README.md"
+      - ".github/workflows/**"
+  push:
+    branches: [main]
+    paths:
+      - "chapters/**"
+      - "docs/**"
+      - "assets/**"
+      - "publishing/**"
+      - "scripts/**"
+      - "README.md"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate project
+        run: python3 scripts/validate_project.py .

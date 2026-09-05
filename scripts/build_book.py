@@ -74,10 +74,16 @@ def main() -> int:
         print("ERROR: --formats måste vara epub och/eller pdf.", file=sys.stderr)
         return 2
 
+    # Chapter Markdown files use image paths such as ../assets/images/....
+    # Include both the repository root and chapters/ in Pandoc's resource path
+    # so those references resolve correctly regardless of the process cwd.
+    resource_path = f"{root}:{root / 'chapters'}"
+    chapter_filter = root / "publishing/chapter-headings.lua"
     common = [
         "--metadata-file", str(metadata_path),
-        "--resource-path", str(root),
-        "--toc", "--toc-depth=2",
+        "--resource-path", resource_path,
+        "--lua-filter", str(chapter_filter),
+        "--toc-depth=1",
     ]
 
     if "epub" in formats:
@@ -87,6 +93,8 @@ def main() -> int:
             "--from=markdown", "--to=epub3",
             "--output", str(epub),
             *common,
+            # EPUB readers already expose the generated navigation document as
+            # their contents/index. Do not add a second visible TOC chapter.
             "--css", str(root / "publishing/epub.css"),
             "--epub-cover-image", str(root / metadata["cover_image"]),
         ], root)
@@ -123,6 +131,10 @@ def main() -> int:
                 "--from=markdown", "--to=pdf",
                 "--pdf-engine=xelatex", "--output", str(pdf),
                 *common,
+                "--toc",
+                # The metadata title would otherwise make Pandoc emit its own
+                # title page before our explicit cover/title front matter.
+                "--metadata", "title=",
                 "--include-in-header", str(root / "publishing/pdf-header.tex"),
                 "--include-before-body", str(frontmatter),
                 "-V", "papersize=a4",

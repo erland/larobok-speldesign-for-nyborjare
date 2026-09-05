@@ -7,7 +7,23 @@ body {
   hyphens: auto;
 }
 p { margin: 0 0 0.65em; }
-h1 { margin: 1.2em 0 0.8em; line-height: 1.15; }
+h1 {
+  margin: 2.2em 0 1.2em;
+  line-height: 1.15;
+}
+h1.chapter-heading {
+  text-align: center;
+}
+h1.chapter-heading .chapter-number {
+  display: block;
+  font-size: 0.72em;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.35em;
+}
+h1.chapter-heading .chapter-title {
+  display: block;
+}
 h2 { margin: 1.15em 0 0.45em; line-height: 1.2; }
 h3 { margin: 1em 0 0.4em; }
 li { margin-bottom: 0.25em; }

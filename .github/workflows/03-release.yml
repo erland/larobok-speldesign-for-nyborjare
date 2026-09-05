@@ -25,7 +25,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-texgyre
+            texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-texgyre lmodern
       - name: Build EPUB and PDF
         run: python3 scripts/build_book.py --output-dir "${RUNNER_TEMP}/book-dist"
       - name: Create or update GitHub Release
